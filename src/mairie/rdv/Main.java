@@ -11,14 +11,9 @@ package mairie.rdv;
  * Année          : 2024 - 2025
  * ============================================================
  */
-
 import mairie.rdv.model.*;
-import mairie.rdv.service.GestionRdvService;
-import mairie.rdv.dao.RendezVousDAO;
-
 import java.time.LocalDate;
 import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -56,13 +51,13 @@ public class Main {
         System.out.println("\n--- Création des citoyens ---");
 
         Citoyen citoyen1 = new Citoyen(
-            "MBODJ", "Alioum", "alioum@email.com", "677001122");
+            "OUMAROU", "Sanda", "elsandos10@email.com", "655161820");
         citoyen1.setId(1);
         citoyen1.setCni("000123456");
         System.out.println("Citoyen créé : " + citoyen1);
 
         Citoyen citoyen2 = new Citoyen(
-            "BELLO", "Fadimatou", "fadima@email.com", "699334455");
+            "BELLO", "Bouba", "boubabello@email.com", "699334455");
         citoyen2.setId(2);
         citoyen2.setCni("000789012");
         System.out.println("Citoyen créé : " + citoyen2);
@@ -71,7 +66,7 @@ public class Main {
         System.out.println("\n--- Création des agents ---");
 
         Agent agent1 = new Agent(
-            "HAMADOU", "Saidou", "saidou@mairie-ngaoundere.cm", "MAT-001");
+            "YAYA", "Emmanuel", "emmanuelyaya@mairie-ngaoundere.cm", "MAT-001");
         agent1.setId(1);
         agent1.setService(declarationNaissance);
         System.out.println("Agent créé : " + agent1);
