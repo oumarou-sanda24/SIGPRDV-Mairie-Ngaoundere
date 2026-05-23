@@ -8,7 +8,9 @@ package mairie.rdv;
  * Matricule      : 24A524FS
  * Branche Git    : branche-oumarou
  * Projet         : SIGPRDV — Mairie de Ngaoundéré
- * Année          : 2024 - 2025
+ * Année          : 2025 - 2026
+ * enseignant     : Pr-Dr-Ing PAUL DAYANG
+ * ue             : genie logociel 
  * ============================================================
  */
 import mairie.rdv.model.*;
@@ -66,7 +68,8 @@ public class Main {
         System.out.println("\n--- Création des agents ---");
 
         Agent agent1 = new Agent(
-            "YAYA", "Emmanuel", "emmanuelyaya@mairie-ngaoundere.cm", "MAT-001");
+            "YAYA", "Emmanuel", "emmanuelyaya
+         @mairie-ngaoundere.cm", "MAT-001");
         agent1.setId(1);
         agent1.setService(declarationNaissance);
         System.out.println("Agent créé : " + agent1);
